@@ -16,7 +16,16 @@ namespace FubuMVC.ContentExtensions
 
         private ExtensionsExpression register(Action<ContentExtensionGraph> configure)
         {
-            _registry.AlterSettings(configure);
+            // TODO -- Gotta do the registration trick in FubuMVC.Core for the settings collection
+            //_registry.AlterSettings(configure);
+            _registry.Services(x => x.SetServiceIfNone(new ContentExtensionGraph()));
+
+            _registry.Configure(graph =>
+            {
+                var contentGraph = graph.Services.DefaultServiceFor<ContentExtensionGraph>().Value as ContentExtensionGraph;
+                configure(contentGraph);
+            });
+
             return this;
         }
 

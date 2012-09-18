@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using FubuCore;
 using FubuMVC.Core;
 using FubuMVC.Core.Registration;
 using FubuMVC.Core.View;
@@ -27,7 +28,7 @@ namespace FubuMVC.ContentExtensions.Tests
             get
             {
                 var graph = BehaviorGraph.BuildFrom(theRegistry);
-                return graph.Settings.Get<ContentExtensionGraph>();
+                return graph.Services.DefaultServiceFor<ContentExtensionGraph>().Value.As<ContentExtensionGraph>();
             }
         }
 
