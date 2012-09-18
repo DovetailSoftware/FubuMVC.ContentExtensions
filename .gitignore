@@ -24,3 +24,5 @@ src/*/repositories.config
 .bottle-alias
 results
 *.DotSettings.user
+bottles.cmd
+fubu.cmd
