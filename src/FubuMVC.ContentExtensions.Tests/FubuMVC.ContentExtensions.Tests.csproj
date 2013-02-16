@@ -89,6 +89,7 @@
     <Compile Include="ExtensionsExpressionTester.cs" />
     <Compile Include="ExtensionShelfTester.cs" />
     <Compile Include="FilteredContentExtensionTester.cs" />
+    <Compile Include="NamespaceImportsTester.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FubuMVC.ContentExtensions\FubuMVC.ContentExtensions.csproj">

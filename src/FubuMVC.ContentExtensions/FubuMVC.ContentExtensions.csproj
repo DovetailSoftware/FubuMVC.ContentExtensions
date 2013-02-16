@@ -64,6 +64,8 @@
     <Compile Include="FilteredContentExtension.cs" />
     <Compile Include="IContentExtension.cs" />
     <Compile Include="LambdaExtension.cs" />
+    <Compile Include="ContentExtensionsRegistration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
