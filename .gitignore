@@ -26,3 +26,5 @@ results
 *.DotSettings*
 bottles.cmd
 fubu.cmd
+logs
+Gemfile.lock
