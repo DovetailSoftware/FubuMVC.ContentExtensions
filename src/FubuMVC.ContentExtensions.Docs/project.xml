@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TagLine>Inject additional content into your views from Bottles</TagLine>
+  <Name>FubuMVC.ContentExtensions</Name>
+  <GitHubPage>http://github.com/DarthFubuMVC/FubuMVC.ContentExtensions</GitHubPage>
+  <UserGroupUrl>https://groups.google.com/forum/?fromgroups#!forum/fubumvc-devel</UserGroupUrl>
+  <BuildServerUrl>http://build.fubu-project.org/project.html?projectId=project35&amp;tab=projectOverview</BuildServerUrl>
+  <BottleName>FubuMVC.ContentExtensions.Docs</BottleName>
+  <TeamCityBuildType>bt62</TeamCityBuildType>
+  <Nugets>
+    <PublishedNuget>
+      <Name>FubuMVC.ContentExtensions</Name>
+      <Description>Compose your views through conventional and type-safe extensions.</Description>
+    </PublishedNuget>
+  </Nugets>
+  <Url>fubumvc.contentextensions</Url>
+</ProjectRoot>
